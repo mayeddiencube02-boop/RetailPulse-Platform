@@ -1,0 +1,16 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+plotly>=5.20
+streamlit>=1.40
+pyarrow>=15
+joblib>=1.3
+optuna>=3.6
+kagglehub>=0.3
+openpyxl>=3.1
+# Optional - enable the Prophet / LSTM models and MLflow experiment tracking.
+# The pipeline skips whichever of these is not installed.
+prophet>=1.1
+mlflow>=2.12
+tensorflow-cpu>=2.15

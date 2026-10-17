@@ -1,0 +1,12 @@
+{
+  "revenue_total": 10001625.52,
+  "orders": 19772,
+  "customers": 4334,
+  "products": 3798,
+  "avg_order_value": 505.85,
+  "countries": 38,
+  "uk_revenue_share": 0.848,
+  "peak_month": "2011-11",
+  "busiest_weekday": "Thursday",
+  "busiest_hour": 12
+}

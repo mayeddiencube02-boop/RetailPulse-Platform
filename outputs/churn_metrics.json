@@ -1,0 +1,58 @@
+{
+  "cutoff_date": "2011-09-10",
+  "window_days": 90,
+  "train_customers": 3367,
+  "churn_rate": 0.4300564300564301,
+  "best_model": "Gradient Boosting (Optuna)",
+  "metrics": {
+    "Logistic Regression": {
+      "ROC_AUC": 0.7266574585635359,
+      "Accuracy": 0.6389548693586699,
+      "Precision": 0.5625,
+      "Recall": 0.7209944751381215,
+      "F1": 0.6319612590799032
+    },
+    "Random Forest": {
+      "ROC_AUC": 0.7388927255985267,
+      "Accuracy": 0.6733966745843231,
+      "Precision": 0.6018735362997658,
+      "Recall": 0.7099447513812155,
+      "F1": 0.6514575411913816
+    },
+    "Gradient Boosting": {
+      "ROC_AUC": 0.7211009438305709,
+      "Accuracy": 0.6532066508313539,
+      "Precision": 0.5925925925925926,
+      "Recall": 0.6187845303867403,
+      "F1": 0.6054054054054054
+    },
+    "Gradient Boosting (Optuna)": {
+      "ROC_AUC": 0.7451715009208103,
+      "Accuracy": 0.6757719714964371,
+      "Precision": 0.6155844155844156,
+      "Recall": 0.6546961325966851,
+      "F1": 0.6345381526104418
+    }
+  },
+  "feature_importance": {
+    "Recency": 0.08879199998423319,
+    "Frequency": 0.44827827553489624,
+    "Monetary": 0.09525750605460719,
+    "Items": 0.06634447899149767,
+    "Distinct_Products": 0.13758717013539323,
+    "Tenure_Days": 0.006939483453174789,
+    "Avg_Order_Value": 0.035731650886421724,
+    "Avg_Items_Per_Order": 0.0046941557780431345,
+    "Avg_Days_Between_Orders": 0.01763047624528624,
+    "Return_Rate": 0.02045861801648256,
+    "Orders_Last_90d": 0.0013043776537805557,
+    "Spend_Last_90d": 0.07698180726618335
+  },
+  "optuna_best_params": {
+    "n_estimators": 269,
+    "max_depth": 2,
+    "learning_rate": 0.012043451160452308,
+    "subsample": 0.7331023901406781
+  },
+  "note": "Recency is strongly tied to the churn definition; interpret importance with that in mind."
+}

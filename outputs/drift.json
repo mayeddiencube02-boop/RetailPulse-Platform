@@ -1,0 +1,15 @@
+{
+  "Quantity": {
+    "psi": 0.0048,
+    "status": "stable"
+  },
+  "Price": {
+    "psi": 0.0276,
+    "status": "stable"
+  },
+  "Revenue": {
+    "psi": 0.0094,
+    "status": "stable"
+  },
+  "split_date": "2011-06-05"
+}

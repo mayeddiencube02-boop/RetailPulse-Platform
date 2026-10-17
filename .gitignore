@@ -1,0 +1,10 @@
+data/raw/*
+!data/raw/.gitkeep
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+mlruns/
+outputs/mlflow.db
+# ~60 MB when built from the real data; regenerate with run_pipeline.py (the .pbix already contains it)
+outputs/powerbi/transactions_clean.csv

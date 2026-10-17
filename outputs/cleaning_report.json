@@ -1,0 +1,16 @@
+{
+  "rows_raw": 541911,
+  "missing_customer_id": 135080,
+  "missing_description": 1454,
+  "duplicates_removed": 5268,
+  "cancellation_lines": 9251,
+  "invalid_qty_or_price_removed": 2512,
+  "non_product_removed": 2342,
+  "missing_description_removed": 0,
+  "quantity_outliers_flagged": 2,
+  "rows_clean": 522538,
+  "rows_with_customer": 391151,
+  "date_min": "2010-12-01 08:26:00",
+  "date_max": "2011-12-09 12:50:00",
+  "custom_row_survived_cleaning": true
+}

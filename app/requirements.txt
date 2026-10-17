@@ -1,0 +1,9 @@
+# Light dependencies for the Streamlit dashboard only.
+# Streamlit Community Cloud reads this file (it sits next to app/streamlit_app.py) and ignores
+# the heavy requirements.txt in the repo root, so TensorFlow/Prophet are not installed in the cloud.
+# To RUN THE PIPELINE locally, use the root requirements.txt instead.
+streamlit>=1.66
+pandas>=2.2
+numpy>=1.26
+plotly>=5.20
+pyarrow>=15
